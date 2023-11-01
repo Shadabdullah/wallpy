@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:wallpy/screens/drawer.dart';
 
 final colorScheme = ColorScheme.fromSeed(
   seedColor: const Color.fromARGB(128, 64, 23, 53),
@@ -22,14 +23,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title:
-              Text("Wallpy", style: Theme.of(context).textTheme.titleMedium!),
-        ),
-      ),
-    );
+    return const MaterialApp(
+        debugShowCheckedModeBanner: false, home: DrawerScreen());
   }
 }
