@@ -13,7 +13,7 @@ class DrawerScreen extends StatelessWidget {
           children: [
             const DrawerHeader(
               decoration: BoxDecoration(color: Colors.black),
-              child: Text('Setting'),
+              child: Text('Settings'),
             ),
             TextButton.icon(
                 onPressed: () {},
