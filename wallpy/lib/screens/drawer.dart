@@ -22,7 +22,7 @@ class DrawerScreen extends StatelessWidget {
             TextButton.icon(
               onPressed: () {},
               icon: const Icon(Icons.abc_rounded),
-              label: const Text("Developer"),
+              label: const Text("Developer profile"),
             ),
             TextButton.icon(
                 onPressed: () {},
