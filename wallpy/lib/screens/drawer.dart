@@ -27,7 +27,7 @@ class DrawerScreen extends StatelessWidget {
             TextButton.icon(
                 onPressed: () {},
                 icon: const Icon(Icons.coffee_outlined),
-                label: const Text("Buy me a Coffee"))
+                label: const Text("Buy Coffee"))
           ],
         ),
       ),
